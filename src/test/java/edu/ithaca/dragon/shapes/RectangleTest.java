@@ -2,7 +2,10 @@ package edu.ithaca.dragon.shapes;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Test;
+
 public class RectangleTest {
+    @Test
     public void calcAreaTest(){
         Rectangle myRectangle = new Rectangle(2,2);
         assertEquals(4, myRectangle.calcArea(), 0.0001);
