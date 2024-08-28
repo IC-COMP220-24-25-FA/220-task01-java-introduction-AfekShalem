@@ -32,8 +32,13 @@ public class CircleTest {
     public void longestLineWithinTest(){
         Circle myCircle = new Circle(1);
         assertEquals(2, myCircle.longestLineWithin(), 0.0001);
-    }
 
+        myCircle = new Circle(2);
+        assertEquals(4, myCircle.longestLineWithin(), 0.0001);
+
+        myCircle = new Circle(0);
+        assertEquals(0, myCircle.longestLineWithin(), 0.0001);
+    }
     @Test
     public void TestConstructorError(){
         assertThrows(IllegalArgumentException.class, () -> new Circle(0));
