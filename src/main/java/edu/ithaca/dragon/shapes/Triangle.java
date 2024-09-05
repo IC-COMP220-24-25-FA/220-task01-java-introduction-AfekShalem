@@ -1,6 +1,6 @@
 package edu.ithaca.dragon.shapes;
 
-public class Triangle {
+public class Triangle implements TriangleInterface{
     private double base;
     private double height;
 
@@ -8,6 +8,10 @@ public class Triangle {
         this.base = base;
         this.height = height;
     }
+
+        public String toString(){
+        return "This is a Triangle, the base is " + this.base + "long and the height is " + this.height + "long.";
+        }
 
     public double calcArea(){
         return (this.height*this.base)/2;
