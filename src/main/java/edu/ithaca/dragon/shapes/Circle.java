@@ -1,6 +1,6 @@
 package edu.ithaca.dragon.shapes;
 
-public class Circle implements CircleInterface {
+public class Circle implements Shape {
     private double radius;
 
     /**

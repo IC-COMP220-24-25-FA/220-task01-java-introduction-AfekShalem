@@ -1,6 +1,6 @@
 package edu.ithaca.dragon.shapes;
 
-public interface TriangleInterface {
+public interface Shape {
     double calcArea();
     void doubleSize();
     double longestLineWithin();

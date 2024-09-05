@@ -1,6 +1,6 @@
 package edu.ithaca.dragon.shapes;
 
-public class Rectangle implements RectangleInterface{
+public class Rectangle implements Shape{
     
 
     private double length;
